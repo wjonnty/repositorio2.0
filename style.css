@@ -18,7 +18,7 @@
 
 body{
     background-color: #070707;
-    overflow-x: hidden;
+   
     color: white;
     
 }
@@ -31,7 +31,7 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    
     border-bottom: 10px solid black;
    
 }
@@ -102,10 +102,7 @@ main{
 }
 
 
-
-
-
-img{
+#shin{
     position: absolute;
     left: 67.45%;
 
@@ -127,68 +124,78 @@ img{
     justify-content: space-around;
     
 }
-
-.projects-section{
-    background-color: blue;
-     
+.section{
+    background-color: rgb(3, 3, 39);
+    border-bottom: 10px solid rgb(0, 0, 0);
+    text-align: center;
 }
-.projects-section h1{font-size: 3rem;text-align: center;}
 
-.list-container{
-    margin-top: 40px;
-    /*background-color: lightblue;*/
+.titles{
+    font-family: 'VT323','monospace';
+    text-shadow: 4px 2px 0px rgb(0, 0, 0);
+    color: white;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.skills-list{
     display: flex;
-    justify-content: center;
-
-    
-    
-}
-
-.skill-list{
-    list-style-type: none;
-    
-    
-    
- 
-}
-li p{
-    font-size: 2rem;
-}
-
-
-#html{
-    list-style-image: url('html.png');
-    
-    
-}
-
-#css{
-    list-style-image: url('./icons/css.png');
-
-}
-
-#javascript{
-    list-style-image: url('./icons/js.png');
-
-}
-
-.listed{
-    display: inline-flex;
     flex-direction: column;
-    vertical-align: middle;
-
-
-
+    height: 348px;
+    width: 436px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+   justify-content: space-between;
+    
 }
-.bar{
-    height: 40px;
-    width: 300px;
-    background-color: blue;
+.skill-smallcomponent{display: inherit;}
+
+.skill-smallcomponent img{width: 80px;height:90px;margin-right: 50px;}
+
+.file::-moz-progress-bar {
+    background-color: red;
+    height: 20px;
+  }
+
+.test{
+    text-align: start;
+    justify-content: space-around;
+  }
+
+.test h2{margin-bottom: 12px;}
+
+.project-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-box span{
+    display: block;
+    height: 280px;
+    width: 280px;
+    background-color: rgb(161, 161, 161);
+    box-shadow: 10px 10px 0 rgb(228, 0, 0);
+    margin-bottom: 100px;
+}
+
+.section.-projects{
+    background-color: rgb(19, 1, 1);
+}
+
+.text-box{
+    max-width: 960px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom:184px ;
+}
+
+.titles.-about{
     margin-bottom: 70px;
-    border: 5px solid black;
 }
-.inside-bar{
-    height: 30px;
-    width: 150px;
-    background-color: darkred;
+
+
+
+
+.section.-contacts{
+    background-color: rgb(19, 1, 1);
 }
