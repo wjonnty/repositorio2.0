@@ -19,7 +19,7 @@
 body{
     background-color: #070707;
     overflow-x: hidden;
-    
+    color: white;
     
 }
 
@@ -86,6 +86,8 @@ main{
     text-align:center ;
     background: blue;
     box-shadow: 10px 10px 0 black;
+    margin-top: 50px;
+    
 
     
 }
@@ -118,8 +120,75 @@ img{
     width: 627px;
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 .navigation{
     display: flex;
     justify-content: space-around;
+    
+}
+
+.projects-section{
+    background-color: blue;
+     
+}
+.projects-section h1{font-size: 3rem;text-align: center;}
+
+.list-container{
+    margin-top: 40px;
+    /*background-color: lightblue;*/
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+.skill-list{
+    list-style-type: none;
+    
+    
+    
+ 
+}
+li p{
+    font-size: 2rem;
+}
+
+
+#html{
+    list-style-image: url('html.png');
+    
+    
+}
+
+#css{
+    list-style-image: url('./icons/css.png');
+
+}
+
+#javascript{
+    list-style-image: url('./icons/js.png');
+
+}
+
+.listed{
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: middle;
+
+
+
+}
+.bar{
+    height: 40px;
+    width: 300px;
+    background-color: blue;
+    margin-bottom: 70px;
+    border: 5px solid black;
+}
+.inside-bar{
+    height: 30px;
+    width: 150px;
+    background-color: darkred;
 }
